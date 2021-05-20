@@ -15,8 +15,9 @@ public class Estructura_Control_Repeticion {
         double PorcentajeNumeracionMayor1300000 = 0;
         int cantNumeracionMayor1300000 = 0;
         
-        System.out.println("CANTIDAD PATENTES A PROCESAR:");
+        System.out.print("\n CANTIDAD PATENTES A PROCESAR: ");
         CANTIDAD_PATENTES = scan.nextInt();
+        
         System.out.println("--------------------------------------------------------------------------------------------------");
         for (int i = 0; i < CANTIDAD_PATENTES; i++) {
 			nroPatente =  (int)(Math.random()* 5000000) + 100000;
