@@ -39,7 +39,7 @@ public class Estructura_Control_Repeticion {
         PorcentajeNumeracionMayor1300000 = (cantNumeracionMayor1300000 * 100) / CANTIDAD_PATENTES;
         System.out.println("--------------------------------------------------------------------------------------------------");
         System.out.printf("Monto total recaudado: %.2f %n", totalRecaudacion);
-        System.out.printf("Porcentaje de autos cuya numeración fue superior:  %.0f%% %n",PorcentajeNumeracionMayor1300000);
+        System.out.printf("Porcentaje de autos cuya numeración fue superior 1300000:  %.0f%% %n",PorcentajeNumeracionMayor1300000);
         System.out.println("--------------------------------------------------------------------------------------------------");
 	}
 
