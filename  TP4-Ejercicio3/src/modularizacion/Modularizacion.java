@@ -1,13 +1,14 @@
 package modularizacion;
 import java.util.Scanner;
 public class Modularizacion {
-	
+	//variable global.
     static Scanner scan = new Scanner(System.in);
     
 	public static void main(String[] args) {
 		
 		mostrarMenu();
-		int opcion = solicitarOpcion();
+		int opcion = solicitarOpcion("Ingrese su Opcion: ");
+		scan.next();
 		calcularAreaParaOpcion(opcion);
 	}
 	
@@ -19,6 +20,11 @@ public class Modularizacion {
 		System.out.println("OPCION 4. Calcular Área del Triángulo");
 		System.out.println("OPCION 5. Calcular Área del Trapecio");
 		System.out.println("--------------------------------------------------------------------------------------------------");
+	}
+	
+	private static int solicitarOpcion(String msj) {
+		System.out.println(msj);
+		return(scan.nextInt());
 	}
 
 }
